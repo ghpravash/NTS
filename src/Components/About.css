@@ -1,0 +1,108 @@
+.about-top{
+    background:linear-gradient(#B85DD1, #7040C8);
+    text-align: center;
+    padding: 70px 0;
+    justify-items: center;
+    height: 40vh;
+    color: white;
+}
+
+.about-top-paragraph {
+    padding: 0px 50px 0px 50px;
+    text-align: justify;
+}
+
+.about-content {
+    margin: 50px 50px 30px 50px;
+    /* height: 50vh; */
+    background-color: #B85DD1;
+    color: white;
+}
+
+.about-content > h4 {
+    text-align: center;
+    padding-top: 10px ;
+}
+.about-content > p {
+    text-align: justify;
+    padding: 0 20px 10px 20px;
+}
+
+
+
+.why-choose-us {
+    margin: 40px 15rem 40px 15rem;
+}
+.why-choose-us > p {
+    text-align: justify;
+}
+
+.why-choose-us > h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.our-team {
+    margin: 0rem 7rem 40px 7rem;
+}
+
+.our-team > h3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.card{
+    width:300px;
+    height: 400px;
+    margin: 10px;
+    align-items: center;
+}
+
+.our-team-card {
+    display: flex;
+}
+
+.our-team-card1{
+    display: flex;
+}
+
+.about-image {
+    width:250px;
+    height:290px;
+    padding: 20px;
+}
+
+@media (max-width: 540px)  {
+    .why-choose-us {
+        margin: 20px 10px 20px 10px;
+    }
+
+    .why-choose-us > h3 {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .our-team {
+        margin-left: 2rem;
+    }
+
+    .our-team-card {
+        display: inline-block;
+        justify-items: center;
+    }
+    
+    .our-team-card1{
+        display: inline-block;
+    }
+}
+@media (max-width: 1024px) {
+    .our-team {
+        margin: 0rem 4rem 40px 4rem;
+    }   
+}
+
+
+
+
+
+
+

@@ -1,0 +1,119 @@
+.serve-inner {
+    margin: 30px 30px 10px 30px;
+    /* top right bottom left */
+    background-color: #E5E5E5;
+}
+
+.serve-inner > h1 {
+    text-align: center;
+    color: #B85DD1;
+}
+
+.serve-inner > h1:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 18%; 
+    padding-top: 8px; 
+    border-bottom: 4px solid #B85DD1; 
+}
+.aaa {
+    padding: 20px 30px 20px 30px;
+}
+.serve-first {
+    background-color: #B85DD1;
+    display: flex;
+}
+.serve-first > img {
+    height: 300px;
+    width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.serve--desc > h4 {
+    color:white;
+    text-align: left;
+    font-style: bold;
+}
+
+.serve--desc {
+    padding: 10px 20px 0px 20px;
+}
+
+.serve--desc  > p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    font-style: italic;
+}
+
+.serve-desc-button > button {
+    height: 35px;
+    width: 170px;
+    border-radius: 30px;
+    background-color: white;
+    color: #7040C8;
+    border: 1px solid #7040C8;
+    word-spacing: .09em;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.serve-desc-button > button:hover {
+    color: white;
+    background-color: #7040C8;
+}
+
+.serve-desc-button {
+    padding-bottom: 10px;
+}
+
+#collapse {
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/*****media******/
+@media (max-width: 1280px) {
+    .serve--desc {
+        padding: 5px 10px 0px 10px;
+    }
+    .serve--desc  > p {
+        margin-top: 3px;
+    }
+    .ourservices-inner {
+        margin: 15px;
+    }
+    .serve-first {
+    display: block;
+    }
+    .serve-first > img {
+        height: 150px;
+        width: 235px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .serve--desc {
+        padding: 5px 10px 0px 10px;
+    }
+    .serve--desc  > p {
+        margin-top: 3px;
+    }
+    .serve-first > img {
+        height: 130px;
+        width: 200px;
+        padding: 10px;
+        margin-top: 10px;
+    
+    }
+}
+
+
+

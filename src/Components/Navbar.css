@@ -1,0 +1,36 @@
+
+.color-nav {
+    background-color: #B85DD1;
+} 
+
+
+.nav-container{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    z-index: 100;
+    margin: 0;
+}
+
+.wave2 {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    opacity: 0.85;
+}
+
+@media (max-width: 700px){
+    .logo {
+        height: 50px;
+        width: 80px;
+    }
+}
+
+.nav-services{
+    margin-right: -9rem;
+}
+

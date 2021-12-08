@@ -1,0 +1,29 @@
+.gallery-top {
+    background:linear-gradient(#B85DD1, #7040C8);
+    text-align: center;
+    padding: 70px 0;
+    justify-items: center;
+    height: 40vh;
+    color: white;
+}
+
+.card-style {
+    height: 300px;
+}
+
+.gallery-showcase {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 540px){
+    .gallery-showcase {
+        display: block;
+    } 
+
+    .gallery-image {
+        height: 300px;
+        width: 300px;
+    } 
+}

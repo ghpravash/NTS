@@ -1,0 +1,105 @@
+.footer {
+    /* top right bottom left */
+    padding: 30px 30px 10px 30px;
+    background: linear-gradient(#B85DD1, #7040C8);
+    color: white;
+}
+.footer-top {
+    display:flex;
+    width: 100%;
+}
+@media (max-width: 698px) {
+    .footer-top {
+        display:block;
+    }
+}
+.footer-top  h3 {
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.contact-us {
+    width: 40%;
+    margin-right: 2px;
+    z-index: 1;
+}
+
+.phone {
+    padding-top: 20px;
+} 
+
+.open-hours {
+    width: 30%;
+}
+.social-media {
+    width: 30%;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    z-index: 1px;
+}
+
+.footer-bottom > p:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    padding-top: 8px; 
+    border-bottom: 2px solid #f5f0f7; 
+}
+@media (min-width: 1025px) {
+    .footer-bottom > p:after {
+        content: ""; 
+        display: block; 
+        margin: 0 auto; 
+        width: 43%;
+        padding-top: 8px; 
+        border-bottom: 2px solid #f5f0f7; 
+    }
+}
+
+
+.social-icons  div {
+    border-radius: 50%;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    padding:5px;
+    margin-right:14px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+.a-a {
+    
+    color: white;
+    
+}
+
+
+.facebook{
+    background-color: #4267B2; 
+}
+.instagram{
+   background: linear-gradient(45deg
+, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+.twitter{
+    background-color: #00acee;
+}
+.youtube{
+    background-color: #FF0000;
+}
+.tiktok {
+    background-color: black;
+}
+
+.footer-wave {
+    position: absolute;
+    bottom: -1205px;
+    left: 0px;
+    z-index: -0.9;
+}

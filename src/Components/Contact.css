@@ -1,0 +1,103 @@
+.contact-top{
+    background:linear-gradient(#B85DD1, #7040C8);
+    text-align: center;
+    padding: 70px 0;
+    justify-items: center;
+    height: 40vh;
+    color: white;
+}
+
+.contact-content {
+    margin: 50px 50px 30px 50px;
+    padding-bottom: 20px;
+    /* height: 50vh; */
+    background-color: #B85DD1;
+    color: white;
+}
+
+.contact-content > h4 {
+    text-align: center;
+    padding: 20px 0px 10px 0 ;
+}
+.contact-content > p {
+    text-align: center;
+}
+
+.contact-form {
+    margin: 10px 50px 10px 50px ;
+}
+
+.mb-3 {
+    width: 30%;
+}
+
+
+@media (max-width: 1024px) {
+    .mb-3 {
+        width: 90%;
+    }
+}
+.prav {
+    background-color: green;
+}
+
+.submit-button {
+    height: 35px;
+    width: 170px;
+    border-radius: 30px;
+    background-color: white;
+    color: #7040C8;
+    border: 1px solid #7040C8;
+    word-spacing: .09em;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submit-button:hover{
+    color:white;
+    background-color: #7040C8;
+
+} 
+.contact-form > h6 {
+    padding-bottom: 10px;
+    color:#B85DD1;
+}
+
+.contact-map {
+    
+        margin: 50px 50px 30px 50px;
+        padding-bottom: 20px;
+        height: 30vh;
+        background-color: #be7ad1;
+        color: white;
+        text-align: center;
+    
+}
+
+.contact-map > h4 {
+    text-align: center;
+    padding: 20px 0px 20px 0 ;
+}
+.contact-map > button {
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    /* background:linear-gradient(#3cba54, #f4c20d, #db3236, #4885ed); */
+    background-color: #eceff5;
+    border: 1px solid #787e79;
+    word-spacing: .09em;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-clickhere {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(146, 16, 135);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-location {
+    height: 30px;
+    width: 30px;
+    color: rgb(22, 223, 22);
+}

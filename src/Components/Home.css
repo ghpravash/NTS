@@ -1,0 +1,78 @@
+/***************home ko part ****/
+.home {
+    background-image: linear-gradient(#B85DD1, #7040C8);
+    height: 79vh;
+}
+.subhome {
+    width: 100%;
+    display: flex;
+    padding-top: 5rem;
+}
+
+.xs-6{
+    width: 40%;
+    margin-top:9rem;
+    margin-left: 5rem;
+    color:#ffffff;
+}
+.landing {
+    width: 60%;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+ 
+.landing1 {
+    width: 70%;
+    height: 90%;
+    }
+
+
+
+@media (max-width: 998px) {
+    .wave {
+        display: none;
+    }
+    .home{
+        height: 50vh;
+    }
+    .xs-6 {
+        margin-top:4rem;
+    }
+    
+    .landing{
+        margin-left: 5rem;
+        margin-top:2rem;
+    }
+    .landing1 {
+        width: 50%;
+        height: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .home {
+        height: 50vh;
+    } 
+}
+@media (max-width: 414px) {
+    .home {
+        height: 70vh;
+    }
+    .landing{
+        margin-top:2rem;
+    }
+    .subhome {
+        display: block;
+    }
+    .xs-6 {
+        margin-top:4rem;
+    }
+}
+
+/************wave************/
+
+.wave {
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+
