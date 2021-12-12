@@ -1,12 +1,12 @@
 .serve-inner {
-    margin: 30px 30px 10px 30px;
     /* top right bottom left */
-    background-color: #E5E5E5;
+    background-color: #d6cbcb;
 }
 
 .serve-inner > h1 {
     text-align: center;
     color: #B85DD1;
+    padding-top: 20px;
 }
 
 .serve-inner > h1:after {

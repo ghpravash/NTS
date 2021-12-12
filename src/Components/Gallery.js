@@ -5,7 +5,7 @@ import Image2  from './Gallery/Image2.jpg'
 import serverbox  from './Gallery/serverbox.jpg'
 import xiaomi  from './Gallery/xiaomi.jpg'
 import cctv_footage  from './Gallery/cctv_footage.jpg'
-import { Card, CardBody, CardText, CardTitle, CardImg, CardGroup } from 'reactstrap';
+import { Card, CardImg } from 'reactstrap';
 
 const Gallery = () => {
     return (

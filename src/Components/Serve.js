@@ -7,7 +7,6 @@ import computer from './Images/computer.jpg';
 import cctv from './Images/cctv.jpg';
 import system from './Images/system.jpg';
 import mobile from './Images/mobile.jpg';
-import digitalmarketing from './Images/digitalmarketing.jpg';
 import SEO from './Images/SEO.jpg';
 import './Serve.css';
 
