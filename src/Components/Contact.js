@@ -22,7 +22,9 @@ const Contact = () => {
                      Thamel, Sukrabhawan <br />
                      Kathmandu, Nepal 44600 </p>
                     <p><b>Email: </b>
-                    nasatechnicalsolutions@gmail.com
+                    nasatechnicalsolutions@gmail.com <br />
+                    infonts@nasatechnicalsolutions.com <br />
+                    nts@nasatechnicalsolutions.com
                     </p>
             </div>
 

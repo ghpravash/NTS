@@ -12,7 +12,9 @@ const Footer = () => {
                     <h5>Address: <br /> House No. 08, Road No. 08 <br />
                     Thamel-Sukrabhawan, Kathmandu, Nepal
                     </h5>
-                    <h5>Email: <br/> nasatechnicalsolutions@gmail.com</h5>
+                    <h5>Email: <br/> nasatechnicalsolutions@gmail.com <br />
+                    infonts@nasatechnicalsolutions.com <br />
+                    nts@nasatechnicalsolutions.com</h5>
                     <h5 className="phone">Phone:(+977 9815582996) <br /> (+977 9868220077)</h5>
                 </div>
 

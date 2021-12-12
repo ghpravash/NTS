@@ -29,7 +29,11 @@ const About = () => {
                 <h4>Our Vision</h4>
                 <p>To be a purely Nepali number one IT solutions company Establishing a company with core competence in e-commerce, all kind of electronic hardware, iot base services, security and surveillance, all kind of software's development, Network solutions and Automation in Nepal.</p>
                 <h4>Our Mission</h4>
-                <p>Understanding customer actual needs and meet their needs with safe and effective service along with best product. Providing quality service with talented technicians and engineer in demanding technical market. Collecting our talented technical young guns from all cities and work together make local think global. We help our customer to discover,plan,design,creat fulfil,enhance and manage their IT technology solutions. Become the most admired tech company in Nepal.</p>
+                <ul type="disc">
+                <li>Understanding customer actual needs and meet their needs with safe and effective service along with best product. </li>
+                <li>Providing quality service with talented technicians and engineer in demanding technical market.</li> <li>Collecting our talented technical young guns from all cities and work together make local think global.</li> 
+                <li>We help our customer to discover,plan,design,creat fulfil,enhance and manage their IT technology solutions to become the most admired tech company in Nepal.</li>
+                </ul>
 
             </div>
             <div className="why-choose-us">
