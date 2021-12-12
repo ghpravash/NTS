@@ -23,6 +23,7 @@
 .serve-first {
     background-color: #B85DD1;
     display: flex;
+    height: auto;
 }
 .serve-first > img {
     height: 300px;
@@ -69,11 +70,13 @@
     padding-bottom: 10px;
 }
 
-#collapse {
+.collapseww {
     color: white;
     text-align: justify;
     font-size: 18px;
     font-style: italic;
+    padding-top: 5px;
+    height: auto;
 }
 
 /*****media******/

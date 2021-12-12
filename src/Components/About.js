@@ -41,6 +41,7 @@ const About = () => {
 
             <div className="our-team">
                 <h3>Our Team </h3>
+            
             <div className="our-team-card">
 
             <Card className="card">
@@ -86,6 +87,7 @@ const About = () => {
             </Card>
 
             </div>
+           
 
             <div className="our-team-card1">
             
@@ -122,9 +124,7 @@ const About = () => {
             </Card>
 
             </div>
-
-            </div>
-
+        </div>
         </div>
         <Testimonials />
         <Partner />

@@ -3,7 +3,7 @@
     text-align: center;
     padding: 70px 0;
     justify-items: center;
-    height: 40vh;
+    height: auto;
     color: white;
 }
 
@@ -15,7 +15,7 @@
 .about-content {
     margin: 50px 50px 30px 50px;
     /* height: 50vh; */
-    background-color: #B85DD1;
+    background-color: #a84bc2;
     color: white;
 }
 
@@ -31,15 +31,19 @@
 
 
 .why-choose-us {
-    margin: 40px 15rem 40px 15rem;
+    margin: 40px 10rem 40px 10rem;
+    background:linear-gradient(#B85DD1, #7040C8);
+    color: white;
 }
 .why-choose-us > p {
     text-align: justify;
+    padding: 0px 40px 20px 40px;
 }
 
 .why-choose-us > h3 {
     text-align: center;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .our-team {
@@ -55,6 +59,7 @@
     height: 400px;
     margin: 10px;
     align-items: center;
+    display: flex;
 }
 
 .our-team-card {
@@ -70,7 +75,36 @@
     height:290px;
     padding: 20px;
 }
-
+@media (max-width: 1180px)  {
+    .about-image {
+        width:200px;
+        height:230px;
+        padding: 20px;
+    }
+    .card{
+        width:320px;
+        height: 350px;
+        margin: 10px;
+    }
+}
+@media (max-width: 874px)  {
+    .about-image {
+        width:150px;
+        height:200px;
+    }
+}
+    @media (max-width: 682px)  {
+        .about-image {
+            width:130px;
+            height:180px;
+        }
+        .card{
+            width:320px;
+            height: 320px;
+            margin: 10px;
+        }
+    
+}
 @media (max-width: 540px)  {
     .why-choose-us {
         margin: 20px 10px 20px 10px;
@@ -90,8 +124,13 @@
         justify-items: center;
     }
     
-    .our-team-card1{
+    .our-team-card1, .our-team-card2{
         display: inline-block;
+    }
+    .about-image {
+        width:250px;
+        height:290px;
+        padding: 20px;
     }
 }
 @media (max-width: 1024px) {
@@ -99,9 +138,6 @@
         margin: 0rem 4rem 40px 4rem;
     }   
 }
-
-
-
 
 
 
