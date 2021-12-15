@@ -30,6 +30,7 @@
     display: flex;
     padding: 30px 0px 20px 0px ;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .partner-logo {
@@ -50,5 +51,19 @@
 @media (max-width: 698px) {
 .our-partner, .our-partner1 {
     display: block;
+    margin: 0 auto;
+    width: 40%;
 }
 }
+@media (max-width: 580px) {
+    .our-partner, .our-partner1 {
+        margin: 0 auto;
+        width: 50%;
+    }
+    }
+    @media (max-width: 500px) {
+        .our-partner, .our-partner1 {
+            margin: 0 auto;
+            width: 60%;
+        }
+        }

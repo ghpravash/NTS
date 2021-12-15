@@ -20,10 +20,19 @@
 @media (max-width: 540px){
     .gallery-showcase {
         display: block;
+        width: 68%;
+        margin: 0 auto;
     } 
 
     .gallery-image {
         height: 300px;
         width: 300px;
     } 
+}
+@media (max-width: 450px){
+    .gallery-showcase {
+        
+        width: 75%;
+        margin: 0 auto;
+    }
 }

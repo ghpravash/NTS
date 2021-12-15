@@ -68,10 +68,12 @@
 
 .our-team-card {
     display: flex;
+    justify-content: center;
 }
 
 .our-team-card1{
     display: flex;
+    justify-content: center;
 }
 
 .about-image {
@@ -81,8 +83,8 @@
 }
 @media (max-width: 1180px)  {
     .about-image {
-        width:200px;
-        height:230px;
+        width:240px;
+        height:260px;
         padding: 20px;
     }
     .card{
@@ -93,14 +95,14 @@
 }
 @media (max-width: 874px)  {
     .about-image {
-        width:150px;
-        height:200px;
+        width:210px;
+        height:255px;
     }
 }
-    @media (max-width: 682px)  {
+    @media (max-width: 690px)  {
         .about-image {
-            width:130px;
-            height:180px;
+            width:150px;
+            height:190px;
         }
         .card{
             width:320px;
@@ -141,6 +143,12 @@
     .our-team {
         margin: 0rem 4rem 40px 4rem;
     }   
+}
+
+@media (max-width: 464px) {
+    .our-team {
+        margin-left: 1.5rem;
+    }
 }
 
 

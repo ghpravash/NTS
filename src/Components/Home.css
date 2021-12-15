@@ -3,16 +3,7 @@
     background-image: linear-gradient(#B85DD1, #7040C8);
     height: 79vh;
 }
-/* @media (max-width: 1188px) {
-    .home{
-    height: 83vh;
-   }
-}
-@media (max-width: 1500px) {
-    .home{
-    height: 83.5vh;
-    }
-} */
+
 .subhome {
     width: 100%;
     display: flex;

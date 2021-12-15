@@ -79,6 +79,10 @@ const About = () => {
                     <CardText>Marketing Officer</CardText>
                 </CardBody>
             </Card>
+            </div>
+           
+
+            <div className="our-team-card1">
 
             <Card className="card">
                 <CardImg className="about-image"
@@ -90,11 +94,6 @@ const About = () => {
                 </CardBody>
             </Card>
 
-            </div>
-           
-
-            <div className="our-team-card1">
-            
             <Card className="card">
                 <CardImg className="about-image"
             src={sahil}
@@ -115,7 +114,9 @@ const About = () => {
                     <CardText>Graphic Designer</CardText>
                 </CardBody>
             </Card>
+            </div>
 
+            <div className="our-team-card1">
 
             <Card className="card">
                 <CardImg className="about-image"
@@ -128,6 +129,7 @@ const About = () => {
             </Card>
 
             </div>
+
         </div>
         </div>
         <Testimonials />

@@ -1,11 +1,56 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react';
 import './Contact.css'
+import emailjs from 'emailjs-com';
 import { FloatingLabel, Form } from 'react-bootstrap';
 import { MdLocationOn } from "react-icons/md";
+import Validation from "./Validation";
 
 
 const Contact = () => {
 
+    const [formIsSubmitted, setFormIsSubmitted] = useState(false);
+
+    const submitForm = () => {
+        setFormIsSubmitted(true);
+    }
+
+    const form = useRef();
+
+  const [values, setValues] = useState({
+    user_name: "",
+    user_email: "",
+    user_message: "",
+});
+
+const [errors, setErrors] =useState({});
+const [dataIsCorrect, setDataIsCorrect] = useState(false);
+
+const handleChange = (e) => {
+    setValues({
+        ...values,
+        [e.target.name]: e.target.value,
+    })
+}
+
+const handleFormSubmit = (e) => {
+e.preventDefault();
+setErrors(Validation(values));
+setDataIsCorrect(true);
+
+emailjs.sendForm('service_6q9k4th', 'template_by0ire3', form.current, 'user_aCMxxel78ibbnYlIXML9e')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+};
+
+useEffect(() => {
+    if (Object.keys(errors).length === 0 && dataIsCorrect) {
+        submitForm(true);
+    }
+}, [errors]);
+/** Validation */
 
     return (
         <div className="contact-container">
@@ -31,12 +76,14 @@ const Contact = () => {
             <div className="contact-form">
 
                 <h6>We'd love to help you !!</h6>
-                <Form>
+                <Form ref={form} onSubmit=  {handleFormSubmit} >
 
                 <Form.Group className="mb-3" controlId="formBasicName">
                 <FloatingLabel
                     controlId="floatingInputGrid" label="Name">
-                        <Form.Control  type="text" placeholder="Your Name Here" />
+                        <Form.Control  type="text" placeholder="Your Name Here"  name="user_name" value={values.user_name} 
+                            onChange={handleChange}/>
+                            {errors.user_name && <p>{errors.user_name}</p>}
                     </FloatingLabel>
                     </Form.Group>
                     
@@ -44,7 +91,9 @@ const Contact = () => {
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                     <FloatingLabel
                     controlId="floatingInputGrid" label="Email address">
-                        <Form.Control type="email" placeholder="Your Email Here" />
+                        <Form.Control type="email" placeholder="Your Email Here"  name="user_email" value={values.user_email}
+                        onChange={handleChange}/>
+                        {errors.user_email && <p>{errors.user_email}</p>}
                         </FloatingLabel>
                         <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
@@ -55,12 +104,17 @@ const Contact = () => {
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                     <FloatingLabel
                     controlId="floatingInputGrid" label="Message">
-                    <Form.Control as="textarea" rows={3} />
+                    <Form.Control as="textarea" rows={3}   name="user_message" value={values.user_message}
+                        onChange={handleChange}/>
+                        {errors.user_message && <p>{errors.user_message}</p>}
                     </FloatingLabel>
                     </Form.Group>
-                    <button className="submit-button" type="submit">
+                    <button className="submit-button" type="submit" onClick= {handleFormSubmit} >
                         Submit
                     </button>
+                    { !formIsSubmitted ? " " : <div>
+                        <p style={{ fontSize:"20px", color:"purple", paddingTop:"5px"}}>Success!!</p>
+                    </div> }
                 </Form>
             </div>
             <div className="contact-map">
@@ -78,3 +132,5 @@ const Contact = () => {
   
 
 export default Contact
+
+//Nts143@!*#
