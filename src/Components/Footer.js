@@ -29,27 +29,27 @@ const Footer = () => {
                     <h3>Social Media</h3>
                         <div className="social-icons">
                             <div className="facebook">
-                            <a className="a-a" href="https://www.facebook.com/NasaTechnicalSolutions" target="_blank">
+                            <a className="a-a" href="https://www.facebook.com/NasaTechnicalSolutions" target="_blank" rel="noreferrer">
                                  <FaFacebookF /> 
                             </a>
                             </div>
                             <div className="instagram">
-                            <a className="a-a" href="https://www.instagram.com/nasatechnicalsolutions" target="_blank">
+                            <a className="a-a" href="https://www.instagram.com/nasatechnicalsolutions" target="_blank" rel="noreferrer">
                                 <FaInstagram />
                             </a>
                             </div>
                             <div className="tiktok">
-                            <a className="a-a" href="https://www.tiktok.com/@nasatechnicalsolutions" target="_blank">
+                            <a className="a-a" href="https://www.tiktok.com/@nasatechnicalsolutions" target="_blank" rel="noreferrer">
                                 <FaTiktok />
                             </a>
                             </div>
                             <div className="twitter">
-                            <a className="a-a" href="#" target="_blank">
+                            <a className="a-a" href="/" target="_blank" rel="noreferrer">
                                 <FaTwitter />
                             </a>
                             </div>
                             <div className="youtube">
-                            <a className="a-a" href="#" target="_blank">
+                            <a className="a-a" href="/" target="_blank" rel="noreferrer">
                                 <FaYoutube />
                             </a>
                             </div>

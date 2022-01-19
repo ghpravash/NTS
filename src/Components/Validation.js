@@ -9,7 +9,7 @@ const  Validation = (values) => {
 
     if(!values.user_email){
         errors.user_email="Email is required!!"
-    } else if(!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(values.user_email)){
+    } else if(!/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/.test(values.user_email)){
         errors.user_email="Email is invalid!!"
     }
     

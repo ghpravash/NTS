@@ -6,7 +6,7 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
-import Services from './Components/Services';
+// import Services from './Components/Services';
 import ScrollArrow from './Components/ScrollArrow';
 import Gallery from './Components/Gallery';
 

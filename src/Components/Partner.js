@@ -15,39 +15,39 @@ const Partner = () => {
            <h1> Our Partners  </h1>
             <div className ="our-partner">
                 <div className ="partner-logo">
-                    <img src={mi} />
+                    <img src={mi} alt="pic"  />
                 </div>
 
                 <div className ="partner-logo">
-                    <img  src={ ktm } />
+                    <img  src={ ktm } alt="pic"  />
                 </div> 
 
                 <div className ="partner-logo">
-                    <img src={nagarik} />
+                    <img src={nagarik} alt="pic"  />
                     
                 </div> 
 
                 <div className ="partner-logo">
-                    <img src={ship} />
+                    <img src={ship} alt="pic" />
                 </div> 
 
             </div>
 
             <div className ="our-partner1">
                 <div className ="partner-logo">
-                    <img src={scenic} />
+                    <img src={scenic} alt="pic" />
                 </div>
 
                 <div className ="partner-logo">
-                    <img src={MV} />
+                    <img src={MV} alt="pic" />
                 </div> 
 
                 <div className ="partner-logo">
-                    <img src={high} />
+                    <img src={high} alt="pic" />
                 </div> 
 
                 <div className ="partner-logo">
-                    <img src={arts} /> 
+                    <img src={arts} alt="pic" /> 
                 </div> 
 
             </div>

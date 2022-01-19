@@ -10,22 +10,22 @@ const Testimonials = () => {
                 <div className="row offset-1">
                     <div className="col-md-5 testimonials">
                         <p>We provide avarious types of digital marketing and SEO for our customers to rank their website on top to hit the customers and gather more traffic on their site.</p>
-                        <img src={abc} />
+                        <img src={abc} alt="pic" />
                         <p className="user-details"><b>Angelina</b><br /> Director at MeroPasal</p>
                     </div>
                     <div className="col-md-5 testimonials">
                         <p>We provide avarious types of digital marketing and SEO for our customers to rank their website on top to hit the customers and gather more traffic on their site.</p>
-                        <img src={abc} />
+                        <img src={abc} alt="pic" />
                         <p className="user-details"><b>Nicky Stegen</b><br /> Director at Cpewa</p>
                     </div>
                     <div className="col-md-5 testimonials">
                         <p>We provide avarious types of digital marketing and SEO for our customers to rank their website on top to hit the customers and gather more traffic on their site.</p>
-                        <img src={abc} />
+                        <img src={abc} alt="pic" />
                         <p className="user-details"><b>Nicky Stegen</b><br /> Director at Cpewa</p>
                     </div>
                     <div className="col-md-5 testimonials">
                         <p>We provide avarious types of digital marketing and SEO for our customers to rank their website on top to hit the customers and gather more traffic on their site.</p>
-                        <img src={abc} />
+                        <img src={abc} alt="pic" />
                         <p className="user-details"><b>Nicky Stegen</b><br /> Director at Cpewa</p>
                     </div>
                 </div>

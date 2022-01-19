@@ -49,7 +49,7 @@ useEffect(() => {
     if (Object.keys(errors).length === 0 && dataIsCorrect) {
         submitForm(true);
     }
-}, [errors]);
+});
 /** Validation */
 
     return (
@@ -121,7 +121,7 @@ useEffect(() => {
                     <h4>You can find us here!</h4>
                     <button>
                     <MdLocationOn className="contact-location" />
-                        <a href="https://goo.gl/maps/ooUx1Ax6ywhFQ4P59" target="_blank" className="contact-clickhere"> CLICK HERE
+                        <a href="https://goo.gl/maps/ooUx1Ax6ywhFQ4P59" target="_blank" rel="noreferrer" className="contact-clickhere"> CLICK HERE
                         </a> 
                     </button>
                     

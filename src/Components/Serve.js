@@ -29,18 +29,18 @@ const Serve = () => {
 
                     <div className="aaa">
                         <div className="serve-first">
-                            <img src={webdev}/>
+                            <img src={webdev} alt="pic"/>
                         
                             <div className="serve--desc">
                                 <h4>Web Development</h4>
                                 <p>NASA technical solutions provide you to choose the perfect Domain Name & Website Designs to start your own business website today. To enhance your business we provide you 24/7 support 365 days.
                                 </p> 
                                 <div className="serve-desc-button">
-                                    
+                                {isOpen && <div className="collapseww">We Provide you time to time free counseling about your site promotion of the digital market to grow your business. We provide both static and dynamic website services.</div>}
                                     <button onClick={() => setIsOpen(!isOpen)}>
                                         {isOpen ? 'Read Less' : 'Read More'}
                                     </button>
-                                    {isOpen && <div className="collapseww">We Provide you time to time free counseling about your site promotion of the digital market to grow your business. We provide both static and dynamic website services.</div>}
+                                    
                                 </div>
                             </div>
                         </div>
@@ -55,13 +55,14 @@ const Serve = () => {
                                 <p>We provide you best networking solutions for your enterprise to connect your business in digital and global market it will help to connect your branches in different places to connect and share shame data at a real time to built your business efficiency and make your work digital and smart. 
                                 </p> 
                                 <div className="serve-desc-button">
+                                {isOpen1 && <div className="collapseww">It also connects your employee to your company network to access them digitally to individual employee to their working station/table.</div>}
                                 <button onClick={() => setIsOpen1(!isOpen1)}>
                                         {isOpen1 ? 'Read Less' : 'Read More'}
                                     </button>
-                                    {isOpen1 && <div className="collapseww">It also connects your employee to your company network to access them digitally to individual employee to their working station/table.</div>}
+                                    
                                 </div>
                             </div>
-                            <img src={network}/>
+                            <img src={network} alt="pic"/>
                         </div>
                     </div>
 
@@ -69,17 +70,18 @@ const Serve = () => {
 
                     <div className="aaa">
                         <div className="serve-first">
-                            <img src={linux} />
+                            <img src={linux} alt="pic" />
                         
                             <div className="serve--desc">
                                 <h4>Windows/Linux Server Installation</h4>
                                 <p>NASA technical solutions provides you to manage and configure powerful and secured operating system of Microsoft server to maintain the system digitally in every branches of enterprises and to manage the authority to access the system services and data files In particular branch and individual department of branches or individual computer of specific authorized person in organization.
                                 </p> 
                                 <div className="serve-desc-button">
+                                {isOpen2 && <div className="collapseww">We also provide Linux based server installation and configuration for the organization. Linux provides high security features for the data manipulation and connection in network to share data enterprises.</div>}
                                     <button onClick={() => setIsOpen2(!isOpen2)}>
                                         {isOpen2 ? 'Read Less' : 'Read More'}
                                     </button>
-                                    {isOpen2 && <div className="collapseww">We also provide Linux based server installation and configuration for the organization. Linux provides high security features for the data manipulation and connection in network to share data enterprises.</div>}
+                                    
                                 </div>
                             </div>
                         </div>
@@ -96,7 +98,7 @@ const Serve = () => {
                                     
                                 </div>
                             </div>
-                            <img src={automation}/>
+                            <img src={automation} alt="pic"/>
                         </div>
                     </div>
 
@@ -105,7 +107,7 @@ const Serve = () => {
                         <div className="aaa">
                             <div className="serve-first">
 
-                            <img src={computer} />
+                            <img src={computer} alt="pic" />
                         
                             <div className="serve--desc">
                             <h4>Computer and Laptop Accessories Available</h4>
@@ -124,7 +126,7 @@ const Serve = () => {
                                 <p>We provide various types of security services for the home and offices such as CCTV camera, fire alarms, gas sensors, biometric attendance machine, door locks, body scanning machine etc are available & install.
                                 </p> 
                             </div>
-                            <img src={cctv} />
+                            <img src={cctv} alt="pic" />
                         </div>
                         </div>
 
@@ -132,17 +134,18 @@ const Serve = () => {
                         <div className="aaa">
                             <div className="serve-first">
 
-                            <img src={system} />
+                            <img src={system} alt="pic" />
                         
                             <div className="serve--desc">
                                 <h4>System Software Development</h4>
                                 <p>We provide with the service of development of System Software. We provide the service of development of custom software that fits the clients business procedures. 
                                 </p> 
                                     <div className="serve-desc-button">
+                                    {isOpen3 && <div className="collapseww">We strive to deliver efficiency and more value from these services to the clients business operation.</div>}
                                         <button onClick={() => setIsOpen3(!isOpen3)}>
                                             {isOpen3 ? 'Read Less' : 'Read More'}
                                         </button>
-                                        {isOpen3 && <div className="collapseww">We strive to deliver efficiency and more value from these services to the clients business operation.</div>}
+                                        
                                     </div>
                             </div>
                         </div>
@@ -156,7 +159,7 @@ const Serve = () => {
                                 <p>We provide a comprehensive service in application development, along with development of application in platforms such as Android, IOS or both. We keep the client, their requirements as well as the value they gain in mind during the development of the application.
                                 </p> 
                                 </div>
-                            <img src={mobile} />
+                            <img src={mobile} alt="pic" />
                         
                         </div>
                         </div>
@@ -164,17 +167,18 @@ const Serve = () => {
                         <div className="aaa">
                             <div className="serve-first">
 
-                                <img src={SEO} />
+                                <img src={SEO} alt="pic" />
                         
                                 <div className="serve--desc">
                                     <h4>Digital Marketing and SEO</h4>
                                     <p>We provide avarious types of digital marketing and SEO for our customers to rank their website on top to hit the customers and gather more traffic on their site.
                                     </p> 
                                     <div className="serve-desc-button">
+                                    {isOpen4 && <div className="collapseww">We also provide digital marketing for our customers to grow their business online we provide the best and effective tools and methods to promote their products and brands according to the nature of the product and specific targeted customer.</div>}
                                         <button onClick={() => setIsOpen4(!isOpen4)}>
                                             {isOpen4 ? 'Read Less' : 'Read More'}
                                         </button>
-                                        {isOpen4 && <div className="collapseww">We also provide digital marketing for our customers to grow their business online we provide the best and effective tools and methods to promote their products and brands according to the nature of the product and specific targeted customer.</div>}
+                                        
                                     
                                     </div>
                                 </div>
